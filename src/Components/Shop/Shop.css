@@ -1,0 +1,23 @@
+.mainShopContainer {
+    display: flex;
+}
+
+.productContainer {
+    /* background: red; */
+    width: 75%;
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 60px;
+
+
+}
+
+.CartContaiter {
+    background: rgb(0, 255, 42);
+    width: 25%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
